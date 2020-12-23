@@ -64,7 +64,7 @@ color: var(--text-inverse);
 #hero {
     
     height: 100vh;
-    background-image: url("img/top.jpg");
+    background-image: url("../img/top.jpg");
     position: relative;
     background-size: cover;
 }
