@@ -2,27 +2,58 @@ body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
   }
+  header{
+      --text: #fff;
+      --text-inverse: #B0ACAB;
+      --background: transparent;
+
+      background:var(--background);
+      color: var(--text);
+
+  }
 /* .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 } */
 .nav-item a{
     font-weight: 800;
+
 }
 
-.btn-outline-dark {
-    color: #fff;
-    border-color: #fff;
+.navbar-brand{
+    font-weight: 200;
+    color: var(--text);
+}
+.navbar-brand:hover{
+    font-weight: 300;
+    color: var(--text);
+}
+.nav-link{
+    --spacing: 1em;
+    text-decoration: none;
+    color: var(--text);
+    padding: calc(var(--spacing) / 2) var(--spacing);
+    position: relative;
+    /* letter-spacing: 2px; */
+}
+.nav-link::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: var(--spacing);
+right: var(--spacing);
+height: 4px;
+background: currentColor;
+transform: scaleX(0);
+transition: transform 150ms ease-in-out;
 }
 
-.navbar-toggler {
-    color: $navbar-dark-color;
-    border-color: $navbar-dark-toggler-border-color;
-  }
-
-  .navbar-toggler-icon {
-    background-image: escape-svg($navbar-dark-toggler-icon-bg);
-  }
-
+.nav-link:hover::after{
+transform: scaleX(1);
+color: var(--text-inverse);
+}
+.nav-link:hover{
+    color: var(--text-inverse);
+}
 .carousel-item{
     height: 600px;
 }
@@ -39,7 +70,7 @@ body, html {
 }
 #hero::before{
     content: "";
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.4);
     position: absolute;
     bottom: 0;
     top: 0;
