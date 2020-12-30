@@ -121,14 +121,14 @@ color: var(--text-inverse);
     line-height: 1.2;
     color: #fff;
 }
-.movie p{
+.epilogue p{
     font-family: Roboto;
     font-size: 21pt;
     line-height: 1.21;
     font-weight: 100;
     margin-top: 20px;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding: 3rem 0.5rem 5rem 0.5rem;
+
 }
 /* .myfram{
     display: block;
@@ -149,4 +149,40 @@ color: var(--text-inverse);
     /* left: 0; */
     width: 90%;
     height: 100%;
+}
+.offer{
+    padding-top: 6rem;
+    background-color: rgb(241,241,241);
+}
+.text{
+    padding-left: 1.5rem;
+}
+h2{
+    font-family: Roboto;
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 200;
+    margin-top: 20px;
+}
+h3{
+    font-size: 1.3rem;
+    line-height: 1.27;
+    color: rgba(33,33,33,1);
+    font-weight: 200;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+ol {list-style-type: inherit;
+    font-family: Roboto;
+    color: rgba(33,33,33,1);
+    font-weight: 300;
+    font-size: 13pt;
+    line-height: 2.5;
+    margin-top: 14px
+}
+p{
+    font-family: Roboto;
+    color: rgba(33,33,33,1);
+    font-weight: 300;
+    font-size: 1rem;
 }
