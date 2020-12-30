@@ -81,14 +81,13 @@ color: var(--text-inverse);
 
 }
 
-#hero {
-    
+.hero {
     height: 100vh;
     background-image: url("../img/top.jpg");
     position: relative;
     background-size: cover;
 }
-#hero::before{
+.hero::before{
     content: "";
     background: rgba(0,0,0,0.4);
     position: absolute;
@@ -97,10 +96,10 @@ color: var(--text-inverse);
     left: 0;
     right: 0;
 }
-#hero .text{
+.hero .text{
     padding-left: 1.5rem;
 }
-#hero h1 {
+.hero h1 {
     padding-top: 5rem;
     padding-bottom: 1.5rem;
     margin: 0;
@@ -109,14 +108,14 @@ color: var(--text-inverse);
     font-weight: 100;
     color: #fff;
 }
-#hero h3{
+.hero h3{
     font-size: 1.3rem;
     line-height: 1.27;
     color: #fff;
     font-weight: 300;
     padding-bottom: 1rem;
 }
-#hero h4{
+.hero h4{
     font-size: 1rem;
     line-height: 1.2;
     color: #fff;
@@ -185,4 +184,35 @@ p{
     color: rgba(33,33,33,1);
     font-weight: 300;
     font-size: 1rem;
+}
+.tolle {
+    height: 60vh;
+    background-image: url("../img/forest.jpg");
+    position: relative;
+    background-size: cover;
+}
+.tolle::before{
+    content: "";
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.tolle h2{
+    font-family: Roboto;
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 200;
+    margin-top: 20px;
+    color: #fff;
+}
+.tolle h3{
+    font-family: Roboto;
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 200;
+    margin-top: 20px;
+    color: #fff;
 }
