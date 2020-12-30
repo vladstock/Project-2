@@ -2,6 +2,10 @@ body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
   }
+  h1,h2,h3,h4,p{
+      margin: 0;
+      padding: 0;
+  }
   header{
       --text: #fff;
       --text-inverse: #B0ACAB;
@@ -71,8 +75,10 @@ color: var(--text-inverse);
     outline: none;
     box-shadow: none;
 }
-navbar-toggler .collapsed{
-    border: none;
+
+.form-control {
+    background: transparent;
+
 }
 
 #hero {
@@ -113,4 +119,34 @@ navbar-toggler .collapsed{
     font-size: 9pt;
     line-height: 1.2;
     color: #fff;
+}
+.movie p{
+    font-family: Roboto;
+    font-size: 21pt;
+    line-height: 1.21;
+    font-weight: 100;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+/* .myfram{
+    display: block;
+    height: 100%;
+} */
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 60px; overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    width: 90%;
+    height: 100%;
 }
