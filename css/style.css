@@ -216,3 +216,24 @@ p{
     margin-top: 20px;
     color: #fff;
 }
+.requeest{
+    height: 60vh;
+    background-image: url("../img/forest.jpg");
+    /* position: relative; */
+    background-size: cover;
+}
+.contact{
+    height: 30vh;
+}
+.contact a{
+    border-color: rgba(33,33,33,1);
+    color: rgba(33,33,33,1);
+    font-family: Roboto;
+    font-size: 13pt;
+    line-height: 22px;
+    background-color: #fff;
+}
+.price{
+    height: 30vh; 
+    background-color: rgb(241,241,241);
+}
