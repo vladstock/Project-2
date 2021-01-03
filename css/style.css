@@ -98,6 +98,7 @@ color: var(--text-inverse);
 }
 .hero .text{
     padding-left: 1.5rem;
+    z-index: 2;
 }
 .hero h1 {
     padding-top: 5rem;
@@ -120,6 +121,9 @@ color: var(--text-inverse);
     line-height: 1.2;
     color: #fff;
 }
+.text{
+    z-index: 2;
+}
 .epilogue p{
     font-family: Roboto;
     font-size: 21pt;
@@ -129,10 +133,9 @@ color: var(--text-inverse);
     padding: 3rem 0.5rem 5rem 0.5rem;
 
 }
-/* .myfram{
-    display: block;
-    height: 100%;
-} */
+.s_img{
+    max-width: 540px;
+}
 
 .responsive-video {
     position: relative;
@@ -150,7 +153,6 @@ color: var(--text-inverse);
     height: 100%;
 }
 .offer{
-    padding-top: 6rem;
     background-color: rgb(241,241,241);
 }
 .text{
@@ -216,11 +218,20 @@ p{
     margin-top: 20px;
     color: #fff;
 }
-.requeest{
+.request{
     height: 60vh;
     background-image: url("../img/forest.jpg");
-    /* position: relative; */
+    position: relative;
     background-size: cover;
+}
+.request::before{
+    content: "";
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .contact{
     height: 30vh;
@@ -241,13 +252,27 @@ p{
 .seemore{
     background-color: rgb(241,241,241);
 }
+.fog{
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
 footer{
     height: 20vh;
     background-image: url("../img/top.jpg");
     position: relative;
     background-size: cover;
 }
+footer::before{
+    content: "";
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 footer ul li{
 text-decoration: none;
 color: #fff;
+
 }
