@@ -59,10 +59,10 @@ color: var(--text-inverse);
     color: var(--text-inverse);
 }
 .carousel-item{
-    height: 600px;
+    max-height: 80vh;
 }
 .carousel-item img{
-    height: 600px;
+    height: 100%;
 }
 
 .navbar-toggler-icon{
@@ -235,5 +235,9 @@ p{
 }
 .price{
     height: 30vh; 
+    background-color: rgb(241,241,241);
+}
+
+.seemore{
     background-color: rgb(241,241,241);
 }
