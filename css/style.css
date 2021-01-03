@@ -241,3 +241,13 @@ p{
 .seemore{
     background-color: rgb(241,241,241);
 }
+footer{
+    height: 20vh;
+    background-image: url("../img/top.jpg");
+    position: relative;
+    background-size: cover;
+}
+footer ul li{
+text-decoration: none;
+color: #fff;
+}
