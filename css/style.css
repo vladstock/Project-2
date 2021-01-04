@@ -253,9 +253,11 @@ p{
     background-color: rgb(241,241,241);
 }
 .fog{
-    filter: drop-shadow(8px 8px 10px gray);
+    filter: drop-shadow(8px 8px 8px gray);
 }
-
+.nastya{
+     filter: drop-shadow(8px 8px 8px gray);
+}  
 footer{
     height: 20vh;
     background-image: url("../img/top.jpg");
