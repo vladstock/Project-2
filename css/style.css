@@ -123,6 +123,7 @@ color: var(--text-inverse);
 }
 .text{
     z-index: 2;
+
 }
 .epilogue p{
     font-family: Roboto;
@@ -256,8 +257,12 @@ p{
     filter: drop-shadow(8px 8px 8px gray);
 }
 .nastya{
-     filter: drop-shadow(8px 8px 8px gray);
+    filter: drop-shadow(8px 8px 8px gray);
 }  
+.nastya img{
+   max-width:365px;
+   height:auto;
+}
 footer{
     height: 20vh;
     background-image: url("../img/top.jpg");
@@ -273,17 +278,13 @@ footer::before{
     left: 0;
     right: 0;
 }
+footer p{
+    color: #fff;
+    z-index: 12;
+    font-weight: 300;
+}
 footer ul li{
 text-decoration: none;
 color: #fff;
+}
 
-}
-/*
-.cropped2 {
-    width: 200px; /* width of container */
-    height: 200px; /* height of container */
-    object-fit: cover;
-    object-position: 20% 10%; /* try 20px 10px */ 
-    border: 5px solid black;
-}
-*/
