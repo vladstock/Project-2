@@ -56,6 +56,12 @@ body, html {
 /* .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 } */
+
+.nav-colored {
+    background-color: rgb(12,16,16) !important;
+    transition: background-color 200ms linear;
+  }
+
 .nav-item a{
     font-weight: 800;
 
