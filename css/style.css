@@ -252,11 +252,11 @@ p{
 }
 footer{
     height: 20vh;
-    background-image: url("../img/top.jpg");
+    background-color: #000;
     position: relative;
     background-size: cover;
 }
-footer::before{
+/* footer::before{
     content: "";
     background: rgba(0,0,0,0.5);
     position: absolute;
@@ -264,7 +264,7 @@ footer::before{
     top: 0;
     left: 0;
     right: 0;
-}
+} */
 footer p{
     color: #fff;
     z-index: 12;
